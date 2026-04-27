@@ -32,7 +32,7 @@ function Home() {
         </div>
 
         <div>
-          <div className="relative w-full max-w-lg h-[18rem] rounded-3xl overflow-hidden border border-slate-200 shadow-xl md:h-[20rem]">
+          <div className="relative w-full max-w-lg h-[20rem] rounded-3xl overflow-hidden border border-slate-200 shadow-xl md:h-[22rem]">
             <img
               src="/myphoto2.jpg"
               alt="Your Name"
