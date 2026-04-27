@@ -13,7 +13,7 @@ function Home() {
             <span className="text-blue-600">React & MERN</span>
           </h1>
           <p className="mt-4 text-slate-600 text-lg">
-            Hi, my name is Babawale Owootori. I'm an entry-level Web Developer
+            Hi, my name is Babawale Owootori. I'm a Full-Stack Web Developer
             focused on building clean, responsive web apps with React and the
             MERN stack. Welcome to my portfolio!
           </p>
