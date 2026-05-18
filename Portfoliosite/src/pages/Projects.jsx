@@ -3,6 +3,20 @@ import ProjectCard from "../components/ProjectCard";
 export default function Projects() {
   const projects = [
     {
+      title: "BetterPay",
+      description:
+        "A MERN web application for comparing cross-border payment routes by fees, FX rates, settlement time, and provider value.",
+      tech: ["MongoDB", "Express", "React", "Node.js"],
+      github: "https://github.com/waleowootori",
+      live: "https://better-pay-mu.vercel.app/",
+      images: [
+        "/betterpay-ui.png",
+        "/betterpay-ui2.png",
+        "/betterpay-footer.png",
+        "/betterpay-code.png",
+      ],
+    },
+    {
       title: "Todo App",
       description:
         "A task manager app with CRUD functionality built using React and Tailwind.",
