@@ -45,12 +45,21 @@ const projects = [
     images: ["/meranda-ui.jpg", "/meranda-code.jpg", "/meranda-credit.jpg"],
   },
   {
-    title: "Portfolio Website",
-    description: "My personal portfolio built with React, Tailwind, and Vite.",
-    tech: ["React", "Tailwind", "Vite"],
-    github: "https://github.com/waleowootori/portfolio-website",
-    live: "https://your-portfolio.netlify.app",
-    images: ["/portfolio-ui.jpg", "/portfolio-credit.jpg"],
+    title: "Modern Landing Page",
+    description:
+      "A visually modern landing page that feels fast, intuitive, and user-focused.",
+    tech: ["React", "HTML", "CSS", "Tailwind"],
+    github: "https://github.com/waleowootori/Landing-page",
+    live: "https://marvelous-mermaid-e18c93.netlify.app/",
+    images: [
+      "/landingpage-ui.png",
+      "/landingpage-ui2.png",
+      "/landingpage-ui3.png",
+      "/landingpage-cta.png",
+      "/landingpage-test.png",
+      "/landingpage-footer.png",
+      "/landingpage-code.png",
+    ],
   },
   {
     title: "Capitalshop (Fashion & Lifestyle Clone)",
