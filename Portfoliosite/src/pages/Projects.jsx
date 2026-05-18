@@ -17,6 +17,21 @@ export default function Projects() {
       ],
     },
     {
+      title: "Task Management App",
+      description:
+        "A MERN stack task management app with full CRUD functionality for creating, updating, organizing, and deleting tasks.",
+      tech: ["MongoDB", "Express", "React", "Node.js"],
+      github: "https://github.com/waleowootori/task-management-app",
+      live: "https://task-management-app-one-self.vercel.app",
+      images: [
+        "/taskmanager-ui.png",
+        "/taskmanager-ui2.png",
+        "/taskmanager-ui3.png",
+        "/taskmanager-ui4.png",
+        "/taskmanager-code.png",
+      ],
+    },
+    {
       title: "Todo App",
       description:
         "A task manager app with CRUD functionality built using React and Tailwind.",
