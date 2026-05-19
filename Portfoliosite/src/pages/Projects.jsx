@@ -12,7 +12,10 @@ export default function Projects() {
       images: [
         "/betterpay-ui.png",
         "/betterpay-ui2.png",
-        "/betterpay-footer.png",
+        "/betterpay-ui3.png",
+        "/betterpay-ui4.png",
+        "/betterpay-ui5.png",
+        "/betterpay-ui6.png",
         "/betterpay-code.png",
       ],
     },
