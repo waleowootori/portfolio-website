@@ -20,30 +20,6 @@ export default function Projects() {
       ],
     },
     {
-      title: "Task Management App",
-      description:
-        "A MERN stack task management app with full CRUD functionality for creating, updating, organizing, and deleting tasks.",
-      tech: ["MongoDB", "Express", "React", "Node.js"],
-      github: "https://github.com/waleowootori/task-management-app",
-      live: "https://task-management-app-one-self.vercel.app",
-      images: [
-        "/taskmanager-ui.png",
-        "/taskmanager-ui2.png",
-        "/taskmanager-ui3.png",
-        "/taskmanager-ui4.png",
-        "/taskmanager-code.png",
-      ],
-    },
-    {
-      title: "Todo App",
-      description:
-        "A task manager app with CRUD functionality built using React and Tailwind.",
-      tech: ["React", "Tailwind", "JavaScript", "LocalStorage"],
-      github: "https://github.com/waleowootori/todos-app", // replace with your real repo
-      live: "", // add Netlify/Vercel link later
-      images: ["/todo-ui.jpg", "/todo-code.jpg", "/todo-credit.jpg"],
-    },
-    {
       title: "Narosundar Barbing Salon",
       description:
         "A modern barbing salon website built with React, featuring services, gallery, and contact sections.",
@@ -93,6 +69,37 @@ export default function Projects() {
         "/capitalshop-ui.jpg",
         "/capitalshop-code.jpg",
         "/capitalshop-credit.jpg",
+      ],
+    },
+    {
+      title: "BackRoads",
+      description: "A travel tour company website built to showcase tours and destination-focused content.",
+      tech: ["React", "JavaScript", "HTML", "CSS"],
+      github: "https://github.com/waleowootori/Backroads.git",
+      live: "",
+      images: [
+        "/main.jpeg",
+        "/about.jpeg",
+        "/tour-1.jpeg",
+        "/tour-2.jpeg",
+        "/tour-3.jpeg",
+        "/tour-4.jpeg",
+        "/backroads-code.png",
+      ],
+    },
+    {
+      title: "Task Management App",
+      description:
+        "A MERN stack task management app with full CRUD functionality for creating, updating, organizing, and deleting tasks.",
+      tech: ["MongoDB", "Express", "React", "Node.js"],
+      github: "https://github.com/waleowootori/task-management-app",
+      live: "https://task-management-app-one-self.vercel.app",
+      images: [
+        "/taskmanager-ui.png",
+        "/taskmanager-ui2.png",
+        "/taskmanager-ui3.png",
+        "/taskmanager-ui4.png",
+        "/taskmanager-code.png",
       ],
     },
   ];
