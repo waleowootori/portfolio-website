@@ -1,5 +1,43 @@
 const projects = [
   {
+    title: "30-Day Guide to Secure a Remote Job",
+    shortTitle: "Remote Career System",
+    description:
+      "A conversion-focused digital product landing page that turns a practical 30-day remote-job framework into a clear, credible buying journey.",
+    outcome:
+      "Built for trust, clarity, and conversion with a structured offer, testimonials, FAQs, and responsive sections.",
+    tech: ["React", "JavaScript", "CSS", "Vercel"],
+    github: "https://github.com/waleowootori/Guide-landing-page",
+    live: "https://30-day-guide.vercel.app/",
+    accent: "amber",
+    images: [
+      "/remote-guide-hero.png",
+      "/remote-guide-offer.png",
+      "/remote-guide-strategies.png",
+      "/remote-guide-pain-points.png",
+      "/remote-guide-testimonials.png",
+      "/remote-guide-faq.png",
+    ],
+  },
+  {
+    title: "BOG Studio",
+    description:
+      "A polished studio website designed to present creative services with a strong visual identity, clear positioning, and a smooth browsing experience.",
+    outcome:
+      "Focused on brand presentation, responsive layout, and a direct path from discovery to inquiry.",
+    tech: ["React", "JavaScript", "CSS", "Vercel"],
+    github: "https://github.com/waleowootori/Bog-Studio",
+    live: "https://bog-studio.vercel.app/",
+    accent: "violet",
+    images: [
+      "/bog-studio-hero.png",
+      "/bog-studio-services.png",
+      "/bog-studio-why-us.png",
+      "/bog-studio-process.png",
+      "/bog-studio-cta.png",
+    ],
+  },
+  {
     title: "BetterPay",
     description:
       "A MERN web application for comparing cross-border payment routes by fees, FX rates, settlement time, and provider value.",

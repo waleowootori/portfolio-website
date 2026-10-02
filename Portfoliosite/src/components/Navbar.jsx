@@ -9,12 +9,12 @@ function Navbar() {
      ${isActive ? "bg-blue-600 text-white shadow" : "text-slate-700 hover:bg-slate-100 hover:text-blue-600"}`;
 
   return (
-    <nav className="sticky top-0 z-50 bg-white/70 backdrop-blur border-b border-slate-200">
-      <div className="max-w-6xl mx-auto flex items-center justify-between px-4 py-3">
+    <nav className="site-nav sticky top-0 z-50">
+      <div className="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
         {/* Logo */}
         <NavLink to="/">
-          <span className="font-bold tracking-tight text-xl">
-            <span className="text-blue-600">My </span>Portfolio
+          <span className="brand-mark">
+            WO<span>.</span>
           </span>
         </NavLink>
 
@@ -36,7 +36,7 @@ function Navbar() {
 
         {/* Mobile menu button */}
         <button
-          className="md:hidden p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600"
+          className="md:hidden p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-lime-300"
           onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? "✕" : "☰"}
         </button>

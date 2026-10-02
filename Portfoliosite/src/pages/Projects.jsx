@@ -1,120 +1,17 @@
 import ProjectCard from "../components/ProjectCard";
+import projects from "../data/projects";
 
 export default function Projects() {
-  const projects = [
-    {
-      title: "BetterPay",
-      description:
-        "A MERN web application for comparing cross-border payment routes by fees, FX rates, settlement time, and provider value.",
-      tech: ["MongoDB", "Express", "React", "Node.js"],
-      github: "https://github.com/waleowootori",
-      live: "https://better-pay-mu.vercel.app/",
-      images: [
-        "/betterpay-ui.png",
-        "/betterpay-ui2.png",
-        "/betterpay-ui3.png",
-        "/betterpay-ui4.png",
-        "/betterpay-ui5.png",
-        "/betterpay-ui6.png",
-        "/betterpay-code.png",
-      ],
-    },
-    {
-      title: "Narosundar Barbing Salon",
-      description:
-        "A modern barbing salon website built with React, featuring services, gallery, and contact sections.",
-      tech: ["React", "CSS"],
-      github: "https://github.com/waleowootori/narosundar-salon",
-      live: "", // add live link later
-      images: [
-        "/narosundar-ui.jpg",
-        "/narosundar-code.jpg",
-        "/narosundar-credit.jpg",
-      ],
-    },
-    {
-      title: "Culinary Blog",
-      description:
-        "A responsive culinary blog built with HTML and CSS, showcasing recipes and food content with a clean layout.",
-      tech: ["HTML", "CSS"],
-      github: "https://github.com/waleowootori/culinary-blog", // your real repo
-      live: "",
-      images: ["/meranda-ui.jpg", "/meranda-code.jpg", "/meranda-credit.jpg"],
-    },
-    {
-      title: "Modern Landing Page",
-      description:
-        "A visually modern landing page that feels fast, intuitive, and user-focused.",
-      tech: ["React", "HTML", "CSS", "Tailwind"],
-      github: "https://github.com/waleowootori/Landing-page",
-      live: "https://marvelous-mermaid-e18c93.netlify.app/",
-      images: [
-        "/landingpage-ui.png",
-        "/landingpage-ui2.png",
-        "/landingpage-ui3.png",
-        "/landingpage-cta.png",
-        "/landingpage-test.png",
-        "/landingpage-footer.png",
-        "/landingpage-code.png",
-      ],
-    },
-    {
-      title: "Capitalshop (Fashion & Lifestyle Clone)",
-      description:
-        "A cloned fashion and lifestyle e-commerce UI built with React, replicating a modern shopping experience.",
-      tech: ["React", "CSS"],
-      github: "https://github.com/waleowootori/capitalshop-clone", // update if different
-      live: "",
-      images: [
-        "/capitalshop-ui.jpg",
-        "/capitalshop-code.jpg",
-        "/capitalshop-credit.jpg",
-      ],
-    },
-    {
-      title: "BackRoads",
-      description: "A travel tour company website built to showcase tours and destination-focused content.",
-      tech: ["React", "JavaScript", "HTML", "CSS"],
-      github: "https://github.com/waleowootori/Backroads.git",
-      live: "",
-      images: [
-        "/main.jpeg",
-        "/about.jpeg",
-        "/tour-1.jpeg",
-        "/tour-2.jpeg",
-        "/tour-3.jpeg",
-        "/tour-4.jpeg",
-        "/backroads-code.png",
-      ],
-    },
-    {
-      title: "Task Management App",
-      description:
-        "A MERN stack task management app with full CRUD functionality for creating, updating, organizing, and deleting tasks.",
-      tech: ["MongoDB", "Express", "React", "Node.js"],
-      github: "https://github.com/waleowootori/task-management-app",
-      live: "https://task-management-app-one-self.vercel.app",
-      images: [
-        "/taskmanager-ui.png",
-        "/taskmanager-ui2.png",
-        "/taskmanager-ui3.png",
-        "/taskmanager-ui4.png",
-        "/taskmanager-code.png",
-      ],
-    },
-  ];
-
   return (
-    <section className="min-h-screen px-6 py-20 bg-gray-50">
+    <section className="min-h-screen px-6 py-24 bg-[#f6f7f9]">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold mb-10">
-          Featured Projects
-        </h2>
-
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, i) => (
-            <ProjectCard key={i} project={project} />
-          ))}
+        <div className="max-w-2xl mb-12">
+          <p className="eyebrow">Selected work</p>
+          <h1 className="section-heading">Interfaces built for real people and real outcomes.</h1>
+          <p className="section-lede">A selection of product pages, business websites, and full-stack tools where I focused on clarity, responsiveness, and useful user journeys.</p>
+        </div>
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-7">
+          {projects.map((project) => <ProjectCard key={project.title} project={project} />)}
         </div>
       </div>
     </section>
