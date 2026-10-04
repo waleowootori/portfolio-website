@@ -14,7 +14,7 @@ function Navbar() {
         {/* Logo */}
         <NavLink to="/">
           <span className="brand-mark">
-            WO<span>.</span>
+            BO<span>.</span>
           </span>
         </NavLink>
 
