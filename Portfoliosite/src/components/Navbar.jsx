@@ -36,15 +36,21 @@ function Navbar() {
 
         {/* Mobile menu button */}
         <button
-          className="md:hidden p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-lime-300"
+          type="button"
+          className={`mobile-menu-toggle md:hidden ${isOpen ? "is-open" : ""}`}
+          aria-label={isOpen ? "Close navigation menu" : "Open navigation menu"}
+          aria-expanded={isOpen}
+          aria-controls="mobile-navigation"
           onClick={() => setIsOpen(!isOpen)}>
-          {isOpen ? "✕" : "☰"}
+          <span />
+          <span />
+          <span />
         </button>
       </div>
 
       {/* Mobile links */}
       {isOpen && (
-        <div className="md:hidden px-4 pb-4 flex flex-col gap-2 bg-white/90 backdrop-blur border-t border-slate-200">
+        <div id="mobile-navigation" className="mobile-navigation md:hidden">
           <NavLink
             to="/"
             className={linkClass}
